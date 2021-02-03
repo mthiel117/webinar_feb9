@@ -4,10 +4,15 @@
 
 ## Summary
 
-Network automation workflow built on Open Source Tools including: Ansible, NetBox and Git.
+Building your own automation workflow with open source tools: Ansible, NetBox and Git.
 
 ![logos](docs/automation-logos.png)
 
-## Documentation
+## Toolbox
+
+- Microsoft VSCode Editor
+- Git
+- Ansible
+- Python 3
 
 ## Links
