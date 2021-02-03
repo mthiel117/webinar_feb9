@@ -8,7 +8,7 @@ Building your own automation workflow with open source tools: Ansible, NetBox an
 
 ![logos](docs/automation-logos.png)
 
-## Toolbox
+## Your Automation Toolbox
 
 - Microsoft VSCode Editor
 - Git
