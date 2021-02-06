@@ -36,7 +36,7 @@ There are a few foundational building blocks that you should consider learning t
 
 - Validation
 
-  - Write scripts/playbooks to validate that intended state matches operational state.
+  - Write scripts/playbooks to validate a device's intended state matches operational state.
   - Example:  Do my current LLDP neighbors per device match my Source of Truth?
 
 ## Example Playbook - Create Base Configs from CSV File
