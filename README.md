@@ -48,7 +48,7 @@ The following playbook creates a unique base device configuration for each row i
 - ./datafiles/devices.csv - CSV File of Device with header row (used for variable names in Jinja)
 - ./base-configs/ - Directory for rendered configuration files
 
-Test it out:
+Test it out: (*requires ansible to be installed*)
 
 ```text
 cd csv-playbook-example
