@@ -1,5 +1,5 @@
 ---
-# ansible-playbook create_base_configlets.yml
+# ansible-playbook create_base_configs.yml
 - name: create configlets from CSV data
   gather_facts: no
   hosts: localhost
@@ -9,7 +9,6 @@
   - name: "Reading in CSV file"
     read_csv:
       path: ../datafiles/devices.csv
-      # fieldnames: hostname,mgmt_ip,netmask,default_gw
     register: switches
 
   - name: Create Base Config for each device in CSV File
@@ -17,3 +16,4 @@
     loop: "{{ switches.list }}"
     loop_control:
       loop_var: switch
+

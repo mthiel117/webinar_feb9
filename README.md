@@ -26,6 +26,13 @@ Foundational Building Blocks
 
 ```
 
+## Example Playbook - Create Base Configs from CSV File
+
+```text
+cd csv-playbook-example
+ansible-playbook playbooks/create_base_configs.yml
+```
+
 ## Resources
 
 - [Microsoft VSCode Editor](https://code.visualstudio.com/Download)
