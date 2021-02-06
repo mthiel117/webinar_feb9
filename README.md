@@ -14,7 +14,7 @@ Building your own automation workflow with open source tools: Ansible, NetBox an
 - [Python 3](https://www.python.org/downloads/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-## Roadmap to getting started
+## Getting Started Roadmap
 
 There are a few foundational building blocks that you should consider learning that will be building blocks for everything you do going forward.  They are:
 
@@ -22,21 +22,22 @@ There are a few foundational building blocks that you should consider learning t
 - Python
 - Git
 
-### Start simple and expand
+### Start Simple and Expand
 
-Reporting - Low-Risk no changes to the network.  Just read info.
+- Reporting
 
-- Start with scripts that produce automated reports about the network
+  - Low-Risk no changes to the network.  Just read info.
+  - Start with scripts that produce automated reports about the network
 
-Change Device Configuration
+- Change Device Configuration
 
-- Automate a task to change a device’s config state, can be simple like syslog server.
-- Expand on this by iterating changes over multiple devices
+  - Automate a task to change a device’s config state, can be simple like syslog server.
+  - Expand on this by iterating changes over multiple devices
 
-Validation
+- Validation
 
-- Write scripts/playbooks to validate that intended state matches operational state.
-- Example:  Do my current LLDP neighbors per device match my Source of Truth?
+  - Write scripts/playbooks to validate that intended state matches operational state.
+  - Example:  Do my current LLDP neighbors per device match my Source of Truth?
 
 ## Example Playbook - Create Base Configs from CSV File
 
