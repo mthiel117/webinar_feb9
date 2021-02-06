@@ -41,6 +41,15 @@ There are a few foundational building blocks that you should consider learning t
 
 ## Example Playbook - Create Base Configs from CSV File
 
+The following playbook creates a unique base device configuration for each row in the CSV file.
+
+./playbooks/create_base_configs.yml - Playbook
+./templates/base-cfg.j2 - Jinja Template
+./datafiles/devices.csv - CSV File of Device with header row (used for variable names in Jinja)
+./base-configs/ - Directory for rendered configuration files
+
+Test it out:
+
 ```text
 cd csv-playbook-example
 ansible-playbook playbooks/create_base_configs.yml
