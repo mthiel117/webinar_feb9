@@ -52,7 +52,7 @@ Test it out: (*requires ansible to be installed*)
 
 ```text
 cd csv-playbook-example
-ansible-playbook playbooks/create_base_configs.yml
+ansible-playbook create_base_configs.yml
 ```
 
 ## Resources

@@ -8,11 +8,11 @@
 
   - name: "Reading in CSV file"
     read_csv:
-      path: ../datafiles/devices.csv
+      path: ./datafiles/devices.csv
     register: switches
 
   - name: Create Base Config for each device in CSV File
-    template: src=../templates/base-cfg.j2 dest=../base-configs/{{ switch.hostname }}.cfg
+    template: src=./templates/base-cfg.j2 dest=./base-configs/{{ switch.hostname }}.cfg
     loop: "{{ switches.list }}"
     loop_control:
       loop_var: switch
