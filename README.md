@@ -77,4 +77,8 @@ cd csv-playbook-example
 ansible-playbook create_base_configs.yml
 ```
 
+Output should look similar to the following:
+
+![output](docs/playbook.png)
+
 Look for config files inside the **./base-configs/** directory.
