@@ -41,6 +41,21 @@ There are a few foundational building blocks that you should consider learning t
   - Write scripts/playbooks to validate a device's intended state matches operational state.
   - Example:  Do my current LLDP neighbors per device match my Source of Truth?
 
+## Example Python Script - Gather Info from Network Devices
+
+```text
+git clone https://github.com/mthiel117/webinar_feb9.git
+
+If running python2 install this jsonrpclib module
+pip install jsonrpclib
+
+If running python3 install this jsonrpclib module
+pip install jsonrpclib-pelix
+
+cd python-example
+./net-info.py
+```
+
 ## Example Playbook - Create Base Configs from CSV File
 
 The following playbook creates a unique base device configuration for each row in the CSV file.
