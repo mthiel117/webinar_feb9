@@ -30,7 +30,7 @@ Quick example of using the Arista eAPI to gather information from a network of s
 
 Clone the Repository from Github to your local machine.
 
-**Requirements:**  Git and Python2 or Python3 installed.
+**Requirements:**  Git and Python2 or Python3 installed and Arista switches that are reachable from your workstation.  You will need to modify the IP address list of switches in the script to match your environment.
 
 ```text
 git clone https://github.com/mthiel117/webinar_feb9.git
