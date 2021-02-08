@@ -24,26 +24,13 @@ There are a few foundational building blocks that you should consider learning t
 - Python
 - Git
 
-### Start Simple and Expand
-
-- Reporting
-
-  - Low-Risk no changes to the network.  Just read info.
-  - Start with scripts that produce automated reports about the network
-
-- Change Device Configuration
-
-  - Automate a task to change a device’s config state, can be simple like syslog server.
-  - Expand on this by iterating changes over multiple devices
-
-- Validation
-
-  - Write scripts/playbooks to validate a device's intended state matches operational state.
-  - Example:  Do my current LLDP neighbors per device match my Source of Truth?
-
 ## Example Python Script - Gather Info from Network Devices
 
-Clone the webinar repo from Github
+Quick example of using the Arista eAPI to gather information from a network of switches.
+
+Clone the Repository from Github to your local machine.
+
+**Requirements:**  Git and Python2 or Python3 installed.
 
 ```text
 git clone https://github.com/mthiel117/webinar_feb9.git
