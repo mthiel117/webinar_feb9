@@ -61,5 +61,3 @@ ansible-playbook create_base_configs.yml
 ```
 
 Look for config files inside the **./base-configs/** directory.
-
-## Resources
