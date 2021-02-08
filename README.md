@@ -8,7 +8,7 @@ Building your own automation workflow with open source tools: Ansible, NetBox an
 
 To get started, setup your machine with the suggested tools below.  The roadmap gives you a path to follow and an example Ansible Playbook is shown below.  Give it a try!
 
-## Fill Your Automation Toolbox with these tools
+## Install these as part of your Automation Toolbox
 
 - [Microsoft VSCode Editor](https://code.visualstudio.com/Download)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
