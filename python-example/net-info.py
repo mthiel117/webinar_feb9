@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 #
 # Example: Arista eAPI script to pull info from all nodes in the network
 #
