@@ -5,7 +5,7 @@
 from jsonrpclib import Server
 import ssl
 
-# Ignore SSL connection warnings
+# Ignore SSL connection warnings from self-signed certificates on Lab switches
 try:
   _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
