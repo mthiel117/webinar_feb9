@@ -36,19 +36,19 @@ Clone the Repository from Github to your local machine.
 git clone https://github.com/mthiel117/webinar_feb9.git
 ```
 
-If running python2 install this jsonrpclib module
+If you are running python2, install **jsonrpclib** module
 
 ```text
 pip install jsonrpclib
 ```
 
-If running python3 install this jsonrpclib-pelix module
+If running you are python3, install **jsonrpclib-pelix** module
 
 ```text
 pip install jsonrpclib-pelix
 ```
 
-In this example, we have a lab of 5 switches available to query.
+In this example, we have a lab of 5 Arista switches available to query.
 
 ```text
 cd python-example
