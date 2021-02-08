@@ -4,7 +4,7 @@
 
 ## Getting Started Roadmap
 
-Building your own automation workflow with open source tools doesn't have to be overly complicated.  Start with these foundational elements:
+Building your own automation workflow with open source tools doesn't have to be overly complicated.  Start by familiarizing yourself with these foundational elements:
 
 - Linux
 - Python
@@ -22,7 +22,7 @@ Next... setup your machine with the suggested tools below.
 
 Once these tools are installed, take a look at the examples below and try them out!
 
-First let's clone the repo...
+First let's clone the repository from GitHub
 
 ```text
 git clone https://github.com/mthiel117/webinar_feb9.git
@@ -32,7 +32,9 @@ git clone https://github.com/mthiel117/webinar_feb9.git
 
 Quick example of using the Arista eAPI to gather information (hostname, uptime, mac-address, lldp neighbors, etc...) from a network of switches.
 
-**Requirements:**  Git and Python2 or Python3 installed and Arista switches that are reachable from your workstation.  You will need to modify the IP address list of switches in the script to match your environment.
+**Requirements:**  Git, Python2 or Python3 (preferred) installed and Arista switches that are reachable from your workstation.  You will need to modify the IP address list of switches in the script to match your environment.
+
+Install the JSONRPCLIB module to allow eAPI connection to be built to the switch.
 
 If you are running python2, install **jsonrpclib** module
 
@@ -46,7 +48,7 @@ If running you are python3, install **jsonrpclib-pelix** module
 pip install jsonrpclib-pelix
 ```
 
-In this example, we have a lab of 5 Arista switches available to query.
+In this example, we have a running lab of 5 Arista switches available to query.
 
 ```text
 cd python-example
@@ -71,7 +73,6 @@ The following playbook creates a unique base device configuration for each row i
 Test it out: (*requires ansible to be installed*)
 
 ```text
-git clone https://github.com/mthiel117/webinar_feb9.git
 cd csv-playbook-example
 ansible-playbook create_base_configs.yml
 ```
