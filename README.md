@@ -42,7 +42,7 @@ If you are running python2, install **jsonrpclib** module
 pip install jsonrpclib
 ```
 
-If running you are python3, install **jsonrpclib-pelix** module
+If you are running python3, install **jsonrpclib-pelix** module
 
 ```text
 pip3 install jsonrpclib-pelix
