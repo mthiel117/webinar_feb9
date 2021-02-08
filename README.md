@@ -43,14 +43,23 @@ There are a few foundational building blocks that you should consider learning t
 
 ## Example Python Script - Gather Info from Network Devices
 
+Clone the webinar repo from Github
+
 ```text
 git clone https://github.com/mthiel117/webinar_feb9.git
+```
 
 If running python2 install this jsonrpclib module
-pip install jsonrpclib
 
-If running python3 install this jsonrpclib module
+```text
+pip install jsonrpclib
+```
+
+If running python3 install this jsonrpclib-pelix module
+
+```text
 pip install jsonrpclib-pelix
+```
 
 cd python-example
 ./net-info.py
