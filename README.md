@@ -61,6 +61,9 @@ If running python3 install this jsonrpclib-pelix module
 pip install jsonrpclib-pelix
 ```
 
+Change directory and run script
+
+```text
 cd python-example
 ./net-info.py
 ```
