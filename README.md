@@ -48,12 +48,14 @@ If running python3 install this jsonrpclib-pelix module
 pip install jsonrpclib-pelix
 ```
 
-Change directory and run script
+In this example, we have a lab of 5 switches available to query.
 
 ```text
 cd python-example
 ./net-info.py
 ```
+
+![output](docs/net-info.png)
 
 ## Example Playbook - Create Base Configs from CSV File
 
