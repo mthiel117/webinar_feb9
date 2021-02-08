@@ -45,7 +45,7 @@ pip install jsonrpclib
 If running you are python3, install **jsonrpclib-pelix** module
 
 ```text
-pip install jsonrpclib-pelix
+pip3 install jsonrpclib-pelix
 ```
 
 In this example, we have a running lab of 5 Arista switches available to query.
