@@ -8,14 +8,6 @@ Building your own automation workflow with open source tools: Ansible, NetBox an
 
 To get started, setup your machine with the suggested tools below.  The roadmap gives you a path to follow and an example Ansible Playbook is shown below.  Give it a try!
 
-## Install these as part of your Automation Toolbox
-
-- [Microsoft VSCode Editor](https://code.visualstudio.com/Download)
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-- [Python 3](https://www.python.org/downloads/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
-
 ## Getting Started Roadmap
 
 There are a few foundational building blocks that you should consider learning that will be building blocks for everything you do going forward.  They are:
@@ -24,9 +16,17 @@ There are a few foundational building blocks that you should consider learning t
 - Python
 - Git
 
+## Install these as part of your Automation Toolbox
+
+- [Microsoft VSCode Editor](https://code.visualstudio.com/Download)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+- [Python 3](https://www.python.org/downloads/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
 ## Example Python Script - Gather Info from Network Devices
 
-Quick example of using the Arista eAPI to gather information from a network of switches.
+Quick example of using the Arista eAPI to gather information (hostname, uptime, mac-address, lldp neighbors, etc...) from a network of switches.
 
 Clone the Repository from Github to your local machine.
 
@@ -54,6 +54,8 @@ In this example, we have a lab of 5 Arista switches available to query.
 cd python-example
 ./net-info.py
 ```
+
+Output should look similar to the following:
 
 ![output](docs/net-info.png)
 
