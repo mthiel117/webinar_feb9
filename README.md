@@ -120,6 +120,9 @@ docker run -it --rm -v %cd%:/workspace mydevbox/base
 
 ## STEP 4 - Change into Directory 'workspace'
 
+While in the container, change to directory 'workspace'.  The contents will be a pointer to your local directory the container was launched from.
+
 ```shell
-docker build -f Dockerfile --tag mydevbox/base .
+cd workspace
+ls -l
 ```
