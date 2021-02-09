@@ -28,7 +28,7 @@ First let's clone the repository from GitHub
 git clone https://github.com/mthiel117/webinar_feb9.git
 ```
 
-## Example #1 - Python Script to gather info from Arista Network switches
+## Example #1 - Python Script to gather Network Inventory from Arista Network switches
 
 Quick example of using the Arista eAPI to gather information (hostname, uptime, mac-address, lldp neighbors, etc...) from a network of switches.
 
