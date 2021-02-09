@@ -126,3 +126,40 @@ While in the container, change to directory 'workspace'.  The contents will be a
 cd workspace
 ls -l
 ```
+
+You know are running a full Ubuntu container with:
+
+- Ubuntu 20.04.1
+- Python 3.8.5
+- Ansible 2.10.5
+- Modules for Netbox YAML
+
+```text
+pip list
+
+Package      Version
+------------ ---------
+ansible      2.10.4
+ansible-base 2.10.5
+certifi      2020.12.5
+cffi         1.14.4
+chardet      4.0.0
+cryptography 3.4.3
+dbus-python  1.2.16
+idna         2.10
+Jinja2       2.11.3
+MarkupSafe   1.1.1
+netaddr      0.8.0
+packaging    20.9
+pip          20.0.2
+pycparser    2.20
+PyGObject    3.36.0
+pynetbox     5.3.1
+pyparsing    2.4.7
+PyYAML       5.4.1
+requests     2.25.1
+setuptools   45.2.0
+six          1.15.0
+urllib3      1.26.3
+wheel        0.34.2
+```
