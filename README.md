@@ -163,3 +163,7 @@ six          1.15.0
 urllib3      1.26.3
 wheel        0.34.2
 ```
+
+For integrating your container with VSCode check out:
+
+[Docker & VSCode Integration](https://code.visualstudio.com/docs/remote/containers)
