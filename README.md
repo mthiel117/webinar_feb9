@@ -82,3 +82,45 @@ Output should look similar to the following:
 ![output](docs/playbook.png)
 
 Look for config files inside the **./base-configs/** directory.
+
+## Docker Image & Container Build
+
+## Prerequisites
+
+- Docker installed on local machine
+- https://docs.docker.com/get-docker/
+- GIT installed on local machine
+
+## STEP 1 - Change Directory
+
+```shell
+cd docker
+```
+
+## STEP 2 - Build Docker Image
+
+```shell
+docker build -f Dockerfile --tag mydevbox/base .
+```
+
+## STEP 3 - Run container and attach to local current directory
+
+Launches Docker container mydevbox/base and attaches to your local volume's current directory.
+
+MacOS
+
+```shell
+docker run -it --rm -v $(PWD):/workspace mydevbox/base
+```
+
+Windows
+
+```shell
+docker run -it --rm -v %cd%:/workspace mydevbox/base
+```
+
+## STEP 4 - Change into Directory 'workspace'
+
+```shell
+docker build -f Dockerfile --tag mydevbox/base .
+```
