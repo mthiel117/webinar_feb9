@@ -132,7 +132,7 @@ You know are running a full Ubuntu container with:
 - Ubuntu 20.04.1
 - Python 3.8.5
 - Ansible 2.10.5
-- Modules for Netbox YAML
+- Modules for Netbox & YAML with dependencies pre-installed
 
 ```text
 pip list
