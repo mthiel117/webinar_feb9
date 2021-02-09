@@ -89,9 +89,8 @@ Look for config files inside the **./base-configs/** directory.
 
 - Docker installed on local machine
 - https://docs.docker.com/get-docker/
-- GIT installed on local machine
 
-## STEP 1 - Change Directory
+## STEP 1 - Change to 'docker' Directory
 
 ```shell
 cd docker
@@ -105,7 +104,7 @@ docker build -f Dockerfile --tag mydevbox/base .
 
 ## STEP 3 - Run container and attach to local current directory
 
-Launches Docker container mydevbox/base and attaches to your local volume's current directory.
+Launches Docker container mydevbox/base and attaches to your local current directory
 
 MacOS
 
